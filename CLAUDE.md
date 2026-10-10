@@ -1,8 +1,1 @@
-I will type a certification name or code in chat. I want you to look it up and prepare a mock test for me. Create two files. First file should only have questions the second file should only have answer key.  Make sure the questions and the answer keys are in the correct order. Both the files should be .md files. A file should have atleast 100 questions or answers.  Use the context of the chat to generate new questions every time. Avoid redundancies.
-
-Only questions and options should be in the question set. Nothing else. Otherwise there is a risk of extra text being treated as hints
-
-I want you to rearrange the options question set in such a way that no option is repeated more than two times. Add a bit of randomness to the answers. But keep the mapping same if you moved the correct answer from A to D it should be reflected in the answer key file.
-Make it double layered which means something like A,A,B,D,A is acceptable. But something like A,A,B,A,A should be avoided. It should look like any the options can be the correct answer. Right now the correct answer mostly is either A or B. So the probability of getting the correct answer by choosing option A is high. I want to judge based on skill not on probability.
-
-When I ask for certifications try to search for latest info first. Need questions closest to this date. Try to put timestamps after every question so I know how old the info is.
+Mock certification tests are generated via the `cert-mock-test` skill (`.claude/skills/cert-mock-test/SKILL.md`). Typing a certification name or code in chat should trigger it.
